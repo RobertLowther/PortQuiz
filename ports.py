@@ -1,23 +1,21 @@
 import random
 
 portDict = {
-    "FTP": "20/21",
-    "SSH": "22",
-    "Telnet": "23",
-    "SMTP": "25/587",
-    "DNS": "53",
     "DHCP": "67/68",
-    "HTTP": "80",
-    "HTTPS": "443",
-    "LDAP": "389",
-    "POP3": "110/955",
+    "DNS": "53",
+    "FTP": "20/21",
+    "HTTP": "80/443",
     "IMAP": "143/993",
+    "LDAP": "389/636",
     "NetBIOS": "137/139",
+    "POP3": "110/955",
+    "RDP": "3389",
     "SMB": "445",
+    "SMTP": "25/587",
     "SNMP Query": "161",
     "SNMP Trap": "162",
-    "LDAP": "389",
-    "RDP": "3389",
+    "SSH": "22",
+    "Telnet": "23",
 }
 
 Acronyms = {
