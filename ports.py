@@ -7,15 +7,21 @@ portDict = {
     "HTTP": "80/443",
     "IMAP": "143/993",
     "LDAP": "389/636",
+    "MySQL": "3306",
     "NetBIOS": "137/139",
+    "NTP": "123",
     "POP3": "110/955",
     "RDP": "3389",
+    "SIP": "5060/5061",
     "SMB": "445",
     "SMTP": "25/587",
     "SNMP Query": "161",
     "SNMP Trap": "162",
+    "SQLNet": "1521",
+    "SQL Srv": "1433",
     "SSH": "22",
     "Telnet": "23",
+    "TFTP": "69",
 }
 
 Acronyms = {
